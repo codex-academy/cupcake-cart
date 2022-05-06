@@ -20,9 +20,13 @@ Note you can use `git add .` to add all the files. Do a `git commit -m "your mes
 
 `git branch gh-pages`
 
+To see which branches are there use: `git branch`
+
 ## Move into the gh-pages branch
 
 `git checkout gh-pages`
+
+Use `git branch` to see which branch you are in.
 
 ## Link your local repo to a remote repository
 
@@ -40,7 +44,7 @@ It should now prompt you for your GitHub token in a page behind other pages...
 
 Create GitHub Token on GitHub if you don't have one already.
 
-### Create a GitHub token
+To create a GitHub token:
 
 * Click on your profile
 * Click on Settings
@@ -50,10 +54,13 @@ Create GitHub Token on GitHub if you don't have one already.
 * Select the repos checkbox
 * Click on Generate Personal Access token
 
+Store the token in a file some where for future use.
+
 After this your page should be available online...
 
-Get the URL in your GitHub repository under Settings -> Pages
+Get the URL in your GitHub repository under Settings -> Pages to get the URL to use.
 
+You will need to enter `cupcake.html` to the end of the URL.
 
 ## Add an index.html file
 
