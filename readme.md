@@ -75,3 +75,14 @@ If it is delete the .git folder by using this command:
 ```
 rm -rf .git
 ```
+
+
+## Things to keep in mind
+
+* Create your css in a seperate file link it in your HTML using `<link rel="stylesheet" href="style.css">`
+* Create a new project folder for the pizza project - `pizza-perfect`. Deploy to GitHub -> create a `gh-pages`
+* Use an `index.html` file as the landing page for pizzas. 
+* Use `flex : 1` or whatever width unit.
+
+
+
