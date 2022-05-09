@@ -38,7 +38,7 @@ The command looks like this:
 
 ## Now push it to GitHub
 
-`git remote push origin gh-pages`
+`git push origin gh-pages`
 
 It should now prompt you for your GitHub token in a page behind other pages...
 
