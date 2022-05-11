@@ -1,3 +1,8 @@
+
+body {
+    font-family: arial,sans-serif;
+}
+
 .cupcake {
     /* border: 1px solid; */
     padding: 1em;
@@ -19,14 +24,14 @@ body {
 }
 @media (min-width: 960px) {
     body {
-        background-color: orange;
+        background-color: lightgreen;
     }
 }
 
 /* Add this class */
 .box {
     /* background-color:lightseagreen; */
-    border: 1em solid blue;
+    border: 1em solid dodgerblue;
     width: 10%;
     padding: 2em 1em 2em 0em;
 }
@@ -39,11 +44,14 @@ body {
 }
 
 h1 {
-    background-color: blue;
+    background-color: dodgerblue;
+    padding: 1em;
+    border-radius: 0.25em;
 }
 
 h2 {
-    background-color: red
+    background-color: lightcoral;
+    padding: 1em;
 }
 
 span {
@@ -55,6 +63,20 @@ span {
 .input {
     margin : 1em;
 }
+
+.link {
+    background-color:lightcoral;
+    width: 15em;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 0.5em;
+    /* text-align: center; */
+}
+
+.link:hover {
+    background-color: crimson;
+}
+
 
 @media (min-width: 768px) {
     .cupcakes {
