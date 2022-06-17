@@ -1,0 +1,21 @@
+[
+	{
+		"id" : 1,
+		"name": "Blue cup cake",
+		"price" : 23.75,
+		"image" : "./images/blue_cupcake.png"
+	},
+	{
+		"id" : 2,
+		"name": "Strawberry Cupcake",
+		"price" : 31.55,
+		"image" : "./images/pink_cupcake.png"
+	},
+	{
+		"id" : 3,
+		"name": "Blueberry cup cake",
+		"price" : 23.55,
+		"image" : "./images/blue_cupcake.png"
+	}
+
+]

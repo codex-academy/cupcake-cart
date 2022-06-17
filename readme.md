@@ -1,88 +1,27 @@
-# How to publish to GitHub Pages
+# Cupcake cart
 
-Check your folders current `git` status using: `git status`
+Learning AlpineJS with Cupcakes
 
-## If you have not created the git repo yet
+Allow users to buy cup cakes by adding them to a cart. Att checkout time users can can click on the Buy button in the cart.
 
-`git init`
+Once they clicked on buy the user should enter a payment amount"
 
-## Add files to git
+* if the amount entered is not enough the cart should stay full and a message shown "Payment failed". 
+* if the right amount or more is offered the cart should be cleared out and a message shown of "Payment successfull"
 
-Other wise just add all your files and commit:
+## Part 1
 
-`git add your_file_names.html`
-
-`git commit -m "added some files"`
-
-Note you can use `git add .` to add all the files. Do a `git commit -m "your message here..."`
-
-## Create a gh-pages branch
-
-`git branch gh-pages`
-
-To see which branches are there use: `git branch`
-
-## Move into the gh-pages branch
-
-`git checkout gh-pages`
-
-Use `git branch` to see which branch you are in.
-
-## Link your local repo to a remote repository
-
-Copy the commands from GitHub after you created a repository there...
-
-The command looks like this:
-
-`git remote add origin ...`
-
-## Now push it to GitHub
-
-`git push origin gh-pages`
-
-It should now prompt you for your GitHub token in a page behind other pages...
-
-Create GitHub Token on GitHub if you don't have one already.
-
-To create a GitHub token:
-
-* Click on your profile
-* Click on Settings
-* Click Developer Settings - at bottom left of the screen
-* Click on Personal Access Token
-* Enter name for your token & select a duration
-* Select the repos checkbox
-* Click on Generate Personal Access token
-
-Store the token in a file some where for future use.
-
-After this your page should be available online...
-
-Get the URL in your GitHub repository under Settings -> Pages to get the URL to use.
-
-You will need to enter `cupcake.html` to the end of the URL.
-
-## Add an index.html file
-
-Add an `index.html` file in your project using the file in this repo as an example, but style it better than mine.
-
-## How to remove a git repo in the wrong folder
-
-Check if your home folder or desktop or project folder was made a git repo by mistake by using `git status`.
-
-If it is delete the .git folder by using this command:
-
-```
-rm -rf .git
-```
+In part 1 we make a static web page interactive by adding a cup cake cart so the people can order sum cup cakes.
 
 
-## Things to keep in mind
+## Part 2
 
-* Create your css in a seperate file link it in your HTML using `<link rel="stylesheet" href="style.css">`
-* Create a new project folder for the pizza project - `pizza-perfect`. Deploy to GitHub -> create a `gh-pages`
-* Use an `index.html` file as the landing page for pizzas. 
-* Use `flex : 1` or whatever width unit.
+In part 2 we will make the cup cake cart dynamic and render the screen from data in a json file. We will also look at building the cart from dynamic data.
+
+# Part 3
+
+
+In part 3 we will look at using an API to store cupcake data in a database, we will also look at storing cupcake orders.
 
 
 
