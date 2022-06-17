@@ -21,7 +21,4 @@ In part 2 we will make the cup cake cart dynamic and render the screen from data
 # Part 3
 
 
-In part 3 we will look at using an API to store cupcake data in a database, we will also look at storing cupcake orders.
-
-
-
+In part 3 we will look at using an API to store cupcakes & cupcake orders data in a sql database.
