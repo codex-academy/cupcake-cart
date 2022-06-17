@@ -170,7 +170,7 @@ td {
     cursor: pointer; */
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
     .cupcakes {
         display: flex;
     }
@@ -178,7 +178,7 @@ td {
     .cart {
         /* background-color: dodgerblue; */
         /* padding: 1em; */
-        width: 25%;
+        width: 50%;
         /* margin-top: -10em; */
         /* border-radius-bottom: 1em; */
     }
